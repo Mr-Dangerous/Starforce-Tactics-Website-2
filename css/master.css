@@ -1,0 +1,152 @@
+:root {
+  --primary-dark: #1b262c;
+  --secondary-dark: #0f4c75;
+  --tertiary-dark: #3282b8;
+  --primary-light: #bbe1fa;
+  /* to reference, use var(--primary-dark) */
+}
+
+section{
+  margin: 0;
+}
+body{
+  font-family: : 'Montserrat', sans-serif;
+}
+
+#section-1{
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  text-align: center;
+  line-height: 3;
+}
+#section-2{
+  background-color: var(--primary-light);
+  color: var(--secondary-dark);
+  text-align: center;
+}
+#section-3{
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  text-align: center;
+}
+#section-4{
+  background-color: var(--primary-light);
+  color: var(--secondary-dark);
+  text-align: center;
+}
+#section-5{
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  text-align: center;
+
+}
+
+.download-arrow-image{
+  width: 200px;
+  height: 200px;
+}
+.section-1-container{
+  margin-top: 60px
+
+}
+.section-1-h1{
+  margin: 8px 0px 24px 0px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.section-1-h3{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-1-row{
+  margin-bottom: 50px;
+}
+.section-1-text{
+  margin-bottom: 0px;
+}
+
+
+.section-2-container{
+  margin: 0;
+
+}
+
+.download-button {
+   background: #000000;
+   background-image: -webkit-linear-gradient(top, #000000, #993A3A);
+   background-image: -moz-linear-gradient(top, #000000, #993A3A);
+   background-image: -ms-linear-gradient(top, #000000, #993A3A);
+   background-image: -o-linear-gradient(top, #000000, #993A3A);
+   background-image: linear-gradient(to bottom, #000000, #993A3A);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 40px;
+   font-weight: 800;
+   padding: 40px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FFFFFF 9px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.download-button:hover {
+   border: inset #9EA3AD 9px;
+   background: #F7B1B1;
+   background-image: -webkit-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: -moz-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: -ms-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: -o-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: linear-gradient(to bottom, #F7B1B1, #993A3A);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.register-button {
+   background: #000000;
+   background-image: -webkit-linear-gradient(top, #000000, #993A3A);
+   background-image: -moz-linear-gradient(top, #000000, #993A3A);
+   background-image: -ms-linear-gradient(top, #000000, #993A3A);
+   background-image: -o-linear-gradient(top, #000000, #993A3A);
+   background-image: linear-gradient(to bottom, #000000, #993A3A);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 40px;
+   font-weight: 800;
+   padding: 40px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FFFFFF 9px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.register-button:hover {
+   border: inset #9EA3AD 9px;
+   background: #F7B1B1;
+   background-image: -webkit-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: -moz-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: -ms-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: -o-linear-gradient(top, #F7B1B1, #993A3A);
+   background-image: linear-gradient(to bottom, #F7B1B1, #993A3A);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}
